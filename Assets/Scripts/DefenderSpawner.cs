@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject defender;
+    Defender defender;
+
+    public void SetSelectedDefender(Defender defender)
+    {
+        this.defender = defender;
+    }
 
     private void OnMouseDown()
     {
+        if (!defender)
+        {
+            return;
+        }
         SpawnDefender(GetSquareClicked());
     }
 
@@ -28,6 +37,6 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 worldPos)
     {
-        GameObject newDefender = Instantiate(defender, worldPos, Quaternion.identity) as GameObject;
+        Defender newDefender = Instantiate(defender, worldPos, Quaternion.identity) as Defender;
     }
 }
