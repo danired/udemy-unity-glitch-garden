@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1356674092958170176}
   - component: {fileID: 6033251779159651908}
   m_Layer: 0
-  m_Name: Cactus
+  m_Name: Gnome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7c77a564f28554292127f72530d6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 50
+  starCost: 200
 --- !u!114 &197180361250608717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c2fab253eb19e4e9136556f5e56b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 485918762243718905, guid: cc0550fdd7a470444baff7886686513e,
+  projectile: {fileID: 623354577583616124, guid: 407c87c41cb0fe644a185f72a14f35b4,
     type: 3}
   gun: {fileID: 6493731617520926348}
 --- !u!95 &1356674092958170176
@@ -73,7 +73,7 @@ Animator:
   m_GameObject: {fileID: 866524496327324883}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4c48f83cd1f312c4f85ab34c1ac3e4de, type: 2}
+  m_Controller: {fileID: 9100000, guid: fa06574c869329846b3364c224865638, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -133,7 +133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3230994220315284278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2600712461189907914}
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -3494450213032369641, guid: d70964b905b8beb4bbf2f98eb7995f56,
+  m_Sprite: {fileID: 3130550414927973559, guid: d7ce107f0b2ec8f47a29516145c5e635,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -214,7 +214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6493731617520926348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41, y: 0.04, z: 0}
+  m_LocalPosition: {x: -0.344, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8762683918118101207}
