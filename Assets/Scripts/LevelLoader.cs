@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelLoad : MonoBehaviour
+public class LevelLoader : MonoBehaviour
 {
     [SerializeField] int timeToWait = 3;
     private int currentSceneIndex;
@@ -25,7 +25,7 @@ public class LevelLoad : MonoBehaviour
         LoadNextScene();
     }
 
-    private void LoadNextScene()
+    public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
@@ -33,5 +33,10 @@ public class LevelLoad : MonoBehaviour
     public void LoadYouLose()
     {
         SceneManager.LoadScene("Lose Screen");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

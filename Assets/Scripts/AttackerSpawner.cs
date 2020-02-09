@@ -20,6 +20,11 @@ public class AttackerSpawner : MonoBehaviour
         }
     }
 
+    public void StopSpawning()
+    {
+        spawn = false;
+    }
+
     private void SpawnAttacker()
     {
         int idx = UnityEngine.Random.Range(0, attackers.Length);

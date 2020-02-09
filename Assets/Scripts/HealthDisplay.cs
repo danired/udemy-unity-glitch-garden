@@ -37,7 +37,7 @@ public class HealthDisplay : MonoBehaviour
         }
         if (health <= 0)
         {
-            FindObjectOfType<LevelLoad>().LoadYouLose();
+            FindObjectOfType<LevelLoader>().LoadYouLose();
         }
     }
 }
