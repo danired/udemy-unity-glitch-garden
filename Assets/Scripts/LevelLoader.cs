@@ -25,9 +25,23 @@ public class LevelLoader : MonoBehaviour
         LoadNextScene();
     }
 
+    public void LoadMainMenu()
+    {
+        // Poner el tiempo a la velocidad estandar
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Start Screen");
+    }
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    public void RestartScene()
+    {
+        // Poner el tiempo a la velocidad estandar
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
     public void LoadYouLose()
