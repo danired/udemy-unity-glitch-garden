@@ -46,3 +46,4 @@ MonoBehaviour:
   volumeSlider: {fileID: 0}
   defaultVolume: 0.8
   difficultySlider: {fileID: 0}
+  defaultDifficulty: 0.5
