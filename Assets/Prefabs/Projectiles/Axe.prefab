@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7582306681174642163}
-  - component: {fileID: 5308575257885441931}
   - component: {fileID: 1418278248940967441}
   - component: {fileID: 8384109419206206740}
+  - component: {fileID: 5308575257885441931}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -34,20 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5308575257885441931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623354577583616124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b62001cd5a83e42acbddcb4f9df222, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  damage: 50
 --- !u!95 &1418278248940967441
 Animator:
   serializedVersion: 3
@@ -93,6 +79,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42483282, y: 0.43193316}
   m_EdgeRadius: 0
+--- !u!114 &5308575257885441931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623354577583616124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b62001cd5a83e42acbddcb4f9df222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  damage: 200
 --- !u!1 &734260731024001374
 GameObject:
   m_ObjectHideFlags: 0

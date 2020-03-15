@@ -90,8 +90,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8805381166700901884}
   - component: {fileID: 8805381166700901885}
-  - component: {fileID: 610656573277885019}
   - component: {fileID: 1609002574162148284}
+  - component: {fileID: 610656573277885019}
   - component: {fileID: 4031801827757425144}
   m_Layer: 0
   m_Name: Trophy
@@ -136,19 +136,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &610656573277885019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8805381166700901882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e7c77a564f28554292127f72530d6e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  starCost: 100
 --- !u!61 &1609002574162148284
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -175,6 +162,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0247178, y: 1.0317798}
   m_EdgeRadius: 0
+--- !u!114 &610656573277885019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8805381166700901882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7c77a564f28554292127f72530d6e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starCost: 50
 --- !u!114 &4031801827757425144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5578fd15535f363418d710b156550d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 20
   deathVFX: {fileID: 0}
 --- !u!1 &8805381167299420251
 GameObject:
